@@ -44,7 +44,7 @@ test("Second Demo Test", async ({ browser, page }) => {
   console.log(firstProduct);
 });
 
-test.only("DropDown Test", async ({ browser, page }) => {
+test("DropDown Test", async ({ browser, page }) => {
   const userName = page.locator("#inputUsername");
   const password = page.locator('[type="password"]');
   const signInBtn = page.locator('[type="submit"]');
