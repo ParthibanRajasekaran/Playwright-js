@@ -13,6 +13,8 @@ const { defineConfig, devices } = require("@playwright/test");
 module.exports = defineConfig({
   testDir: "./tests",
 
+  globalSetup: './support/globalSupport',
+
   expect: {
     timeout: 5000,
   },
@@ -32,9 +34,9 @@ module.exports = defineConfig({
     // baseURL: 'http://127.0.0.1:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: "on-first-retry",
-
-    browserName: "firefox",
+    trace: "on",
+    
+    // browserName: "chromium",
   },
 
   /* Configure projects for major browsers */
