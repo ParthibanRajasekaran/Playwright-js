@@ -10,6 +10,8 @@ jobs:
     name: 'BrowserStack Test on Ubuntu'
     runs-on: ubuntu-latest  # Can be self-hosted runner also
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
       - name: 'BrowserStack Env Setup'
         uses: browserstack/github-actions/setup-env@master
