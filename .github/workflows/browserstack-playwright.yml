@@ -1,17 +1,22 @@
 name: 'BrowserStack Test'
+
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
   schedule:
     - cron: '0 12 * * 2,4'
+
 jobs:
   ubuntu-job:
     name: 'BrowserStack Test on Ubuntu'
-    runs-on: ubuntu-latest  # Can be self-hosted runner also
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: npm install
 
       - name: 'BrowserStack Env Setup'
         uses: browserstack/github-actions/setup-env@master
