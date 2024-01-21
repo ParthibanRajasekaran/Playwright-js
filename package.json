@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm update browserstack-node-sdk"
+    "postinstall": "npm update browserstack-node-sdk",
+    "test": "npx browserstack-node-sdk playwright test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.40.1",
+    "browserstack-node-sdk": "^1.31.14",
     "dotenv": "^16.3.1"
   }
 }
