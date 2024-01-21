@@ -1,0 +1,40 @@
+framework: playwright
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Ventura
+    browserName: playwright-webkit
+    browserVersion: latest
+  - os: OS X
+    osVersion: Monterey
+    browserName: playwright-webkit
+    browserVersion: latest
+  - os: OS X
+    osVersion: Monterey
+    browserName: Edge
+    browserVersion: latest
+  - os: Windows
+    osVersion: 11
+    browserName: playwright-firefox
+    browserVersion: latest
+  - deviceName: Samsung Galaxy S23 Ultra
+    browserName: chrome
+    osVersion: 13.0
+  - deviceName: Samsung Galaxy Tab S9
+    browserName: chrome
+    osVersion: 13.0
+  - deviceName: Google Pixel 5
+    browserName: chrome
+    osVersion: 12.0
+  - deviceName: OnePlus 11R
+    browserName: chrome
+    osVersion: latest
+browserstackLocal: false
+buildName: playwright-js
+buildIdentifier: ${BUILD_NUMBER}
+projectName: playwright-js
+debug: true
+consoleLogs: verbose
