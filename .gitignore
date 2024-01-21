@@ -2,6 +2,7 @@ node_modules/
 test-results/
 playwright-report/
 playwright/.cache/
+performance-report.json
 
 .DS_Store
 .idea/
