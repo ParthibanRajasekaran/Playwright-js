@@ -5,33 +5,30 @@ platforms:
     browserName: chrome
     browserVersion: latest
   - os: OS X
-    osVersion: Ventura
+    osVersion: Sequoia
     browserName: playwright-webkit
     browserVersion: latest
   - os: OS X
-    osVersion: Monterey
+    osVersion: Sequoia
     browserName: playwright-webkit
     browserVersion: latest
   - os: OS X
-    osVersion: Monterey
+    osVersion: Sequoia
     browserName: Edge
     browserVersion: latest
   - os: Windows
     osVersion: 11
     browserName: playwright-firefox
     browserVersion: latest
-  # - deviceName: Samsung Galaxy S23 Ultra
-  #   browserName: chrome
-  #   osVersion: 13.0
-  # - deviceName: Samsung Galaxy Tab S9
-  #   browserName: chrome
-  #   osVersion: 13.0
-  # - deviceName: Google Pixel 5
-  #   browserName: chrome
-  #   osVersion: 12.0
-  # - deviceName: OnePlus 11R
-  #   browserName: chrome
-  #   osVersion: latest
+  - deviceName: Galaxy S24 Ultra
+    browserName: chrome
+    osVersion: 14.0
+  - deviceName: Y50
+    browserName: chrome
+    osVersion: 10.0
+  - deviceName: Pixel 9 Pro XL
+    browserName: chrome
+    osVersion: 14.0
 browserstackLocal: false
 buildName: playwright-js
 buildIdentifier: ${BUILD_NUMBER}
