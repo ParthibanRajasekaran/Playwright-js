@@ -9,19 +9,12 @@ platforms:
     browserName: playwright-webkit
     browserVersion: latest
   - os: OS X
-    osVersion: Sonoma
-    browserName: playwright-webkit
-    browserVersion: latest
-  - os: OS X
     osVersion: Sequoia
     browserName: Edge
     browserVersion: latest
   - deviceName: Galaxy S24 Ultra
     browserName: chrome
     osVersion: 14.0
-  - deviceName: Y50
-    browserName: chrome
-    osVersion: 10.0
   - deviceName: Pixel 9 Pro XL
     browserName: chrome
     osVersion: 14.0
