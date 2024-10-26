@@ -1,7 +1,7 @@
 {
   "name": "playwright-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample playground repo to play around with Playwright using JavaScript",
   "main": "index.js",
   "scripts": {
     "postinstall": "npm update browserstack-node-sdk",
@@ -11,8 +11,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.40.1",
-    "browserstack-node-sdk": "^1.31.14",
-    "dotenv": "^16.3.1"
+    "@playwright/test": "^1.48.2",
+    "browserstack-node-sdk": "^1.34.18",
+    "dotenv": "^16.4.5"
   }
 }
