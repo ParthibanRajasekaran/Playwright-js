@@ -9,16 +9,12 @@ platforms:
     browserName: playwright-webkit
     browserVersion: latest
   - os: OS X
-    osVersion: Sequoia
+    osVersion: Sonoma
     browserName: playwright-webkit
     browserVersion: latest
   - os: OS X
     osVersion: Sequoia
     browserName: Edge
-    browserVersion: latest
-  - os: Windows
-    osVersion: 11
-    browserName: playwright-firefox
     browserVersion: latest
   - deviceName: Galaxy S24 Ultra
     browserName: chrome
